@@ -16,3 +16,50 @@ img {
   display: block;
   width: 100%;
 }
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  background-color: #8bc9d9;
+  border-top: 3px solid #005e76;
+  color: #005e76;
+}
+
+.footer h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.footer ul {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.footer a {
+  color: #003442;
+}
+
+.links {
+  padding: 0 1rem;
+}
+
+.social {
+  display: flex;
+  padding: 0 1rem;
+  margin-left: auto;
+}
+
+.social > li {
+  width: 3em;
+  margin: 0 .5rem;
+}
+
+.copyright {
+  width: 100%;
+  padding: 0 1rem;
+}
